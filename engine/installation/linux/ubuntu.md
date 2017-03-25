@@ -276,7 +276,8 @@ a new file each time you want to upgrade Docker.
 1.  This step is different for Docker CE and Docker EE.
 
     - **Docker CE**: Go to
-      [{{ download-url-base }}/pool/stable-{{ minor-version }}/amd64/]({{ download-url-base }}/pool/stable-{{ minor-version }}/amd64/)
+      [{{ download-url-base }}/dists/]({{ download-url-base }}/dists/), choose your
+      Ubuntu version, choose `stable`, go to `pool/stable/amd64/`,
       and download the `.deb` file for the Docker version you want to install and
       for your version of Ubuntu.
 
